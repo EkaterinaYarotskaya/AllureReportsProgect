@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: AllureTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.625 s <<< FAILURE! - in AllureTest
+additionOfNumbersFail  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <14>
+     but: was <4>
+	at AllureTest.additionOfNumbersFail(AllureTest.java:25)
+
