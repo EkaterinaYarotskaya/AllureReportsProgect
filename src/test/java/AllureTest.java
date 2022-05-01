@@ -22,6 +22,6 @@ public class AllureTest {
     @Test
     public void additionOfNumbersFail() {
 
-        assertThat(sunn(1, 3), is(14));
+        assertThat(sunn(1, 3), is(4));
     }
 }

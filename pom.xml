@@ -14,16 +14,15 @@
             <allure.version>{latest-allure-version}</allure.version>
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
             <allure.version>2.13.1</allure.version>
-            <aspectj.version>1.9.5</aspectj.version>
+            <aspectj.version>1.9.6</aspectj.version>
             <maven.compiler.source>1.8</maven.compiler.source>
             <maven.compiler.target>1.8</maven.compiler.target>
         </properties>
         <dependencies>
-
             <dependency>
-                <groupId>io.github.bonigarcia</groupId>
-                <artifactId>webdrivermanager</artifactId>
-                <version>4.4.3</version>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>2.0.0-alpha6</version>
             </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
@@ -109,8 +108,9 @@
                             </property>
                         </systemProperties>
                         <systemPropertyVariables>
-                            <allure.results.directory>target/allure-results</allure.results.directory>
+                            <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                         </systemPropertyVariables>
+
                     </configuration>
                     <dependencies>
                         <dependency>
@@ -124,9 +124,9 @@
                     <groupId>io.qameta.allure</groupId>
                     <artifactId>allure-maven</artifactId>
                     <version>2.10.0</version>
-                    <configuration>
-                        <allureDownloadUrl>https://github.com/allure-framework/allure2/releases/download/2.14.0/allure-2.14.0.zip</allureDownloadUrl>
-                    </configuration>
+<!--                    <configuration>-->
+<!--                        <allureDownloadUrl>https://github.com/allure-framework/allure2/releases/download/2.14.0/allure-2.14.0.zip</allureDownloadUrl>-->
+<!--                    </configuration>-->
                 </plugin>
             </plugins>
         </build>
