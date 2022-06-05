@@ -1,8 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: AllureTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.571 s <<< FAILURE! - in AllureTest
-flakyTest  Time elapsed: 0.033 s  <<< FAILURE!
+Tests run: 22, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.992 s <<< FAILURE! - in AllureTest
+flakyTest  Time elapsed: 0.317 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at AllureTest.flakyTest(AllureTest.java:134)
+	at AllureTest.flakyTest(AllureTest.java:182)
+
+exñeptionTest  Time elapsed: 0.127 s  <<< ERROR!
+java.lang.IllegalArgumentException
+	at AllureTest.exñeptionTest(AllureTest.java:194)
+
+WriteTest  Time elapsed: 0.171 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <?????? ????!
+??? ? ??? ?????> but was: <Äîáðûé äåíü!
+Êàê ó âàñ äåëà?>
+	at AllureTest.WriteTest(AllureTest.java:245)
 

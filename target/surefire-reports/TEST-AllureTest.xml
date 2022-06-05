@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AllureTest" time="0.571" tests="10" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AllureTest" time="0.992" tests="22" errors="1" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="D:\Java\jdk-11.0.14\bin"/>
-    <property name="sun.java.command" value="C:\Users\MSI\AppData\Local\Temp\surefire16851876910421374587\surefirebooter7191116719343053678.jar C:\Users\MSI\AppData\Local\Temp\surefire16851876910421374587 2022-05-08T14-40-29_349-jvmRun1 surefire723590255289317817tmp surefire_018110793900682301147tmp"/>
+    <property name="sun.java.command" value="C:\Users\MSI\AppData\Local\Temp\surefire16938593627712144122\surefirebooter10844045633705249494.jar C:\Users\MSI\AppData\Local\Temp\surefire16938593627712144122 2022-06-05T16-09-41_577-jvmRun1 surefire17306640897815411347tmp surefire_016472455141686531412tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\AllureReportsProgect\target\test-classes;D:\AllureReportsProgect\target\classes;C:\Users\MSI\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\MSI\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\MSI\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MSI\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\MSI\.m2\repository\io\qameta\allure\allure-junit5\2.13.1\allure-junit5-2.13.1.jar;C:\Users\MSI\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.1\allure-junit-platform-2.13.1.jar;C:\Users\MSI\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\MSI\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\MSI\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\MSI\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\MSI\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\MSI\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\MSI\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\MSI\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\MSI\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\MSI\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\MSI\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\MSI\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\MSI\AppData\Local\Temp\surefire16851876910421374587\surefirebooter7191116719343053678.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MSI\AppData\Local\Temp\surefire16938593627712144122\surefirebooter10844045633705249494.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
@@ -61,20 +61,41 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="sumTest" classname="AllureTest" time="0.162"/>
-  <testcase name="flakyTest" classname="AllureTest" time="0.033">
+  <testcase name="sumTest" classname="AllureTest" time="0.175"/>
+  <testcase name="flakyTest" classname="AllureTest" time="0.317">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at AllureTest.flakyTest(AllureTest.java:134)
+	at AllureTest.flakyTest(AllureTest.java:182)
 ]]></failure>
-    <system-err><![CDATA[[main] ERROR io.qameta.allure.util.NamingUtils - Could not find parameter randomNumber
-]]></system-err>
   </testcase>
-  <testcase name="checkSumStepTest" classname="AllureTest" time="0.003"/>
-  <testcase name="SubtractionTest" classname="AllureTest" time="0.002"/>
-  <testcase name="checkEqualsStringTest" classname="AllureTest" time="0.258"/>
-  <testcase name="cosTest" classname="AllureTest" time="0.001"/>
+  <testcase name="checkSumStepTest" classname="AllureTest" time="0.002"/>
+  <testcase name="exсeptionTest" classname="AllureTest" time="0.127">
+    <error type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException
+	at AllureTest.exсeptionTest(AllureTest.java:194)
+</error>
+  </testcase>
+  <testcase name="SubtractionTest" classname="AllureTest" time="0.003"/>
+  <testcase name="findArccos" classname="AllureTest" time="0.002"/>
+  <testcase name="findArcsin" classname="AllureTest" time="0.002"/>
+  <testcase name="ownerTest" classname="AllureTest" time="0.002"/>
+  <testcase name="severityTest" classname="AllureTest" time="0.007"/>
+  <testcase name="SimpleTest2" classname="AllureTest" time="0.011"/>
+  <testcase name="SimpleTest" classname="AllureTest" time="0.003"/>
+  <testcase name="checkEqualsStringTest" classname="AllureTest" time="0.005"/>
+  <testcase name="WriteTest" classname="AllureTest" time="0.171">
+    <failure message="expected: &lt;������ ����!&#10;��� � ��� ����?&gt; but was: &lt;Добрый день!&#10;Как у вас дела?&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+expected: <������ ����!
+��� � ��� ����?> but was: <Добрый день!
+Как у вас дела?>
+	at AllureTest.WriteTest(AllureTest.java:245)
+]]></failure>
+  </testcase>
+  <testcase name="severityGroupTest" classname="AllureTest" time="0.003"/>
+  <testcase name="WriteTextTwice" classname="AllureTest" time="0.002"/>
+  <testcase name="cosTest" classname="AllureTest" time="0.007"/>
+  <testcase name="CleaningFileTest" classname="AllureTest" time="0.007"/>
+  <testcase name="connectionTest" classname="AllureTest" time="0.011"/>
   <testcase name="addLinkGoogleTest" classname="AllureTest" time="0.003"/>
-  <testcase name="checkSubtractionStepTest" classname="AllureTest" time="0.005"/>
-  <testcase name="addActiveLink" classname="AllureTest" time="0.003"/>
-  <testcase name="sinTest" classname="AllureTest" time="0.002"/>
+  <testcase name="checkSubtractionStepTest" classname="AllureTest" time="0.002"/>
+  <testcase name="addActiveLink" classname="AllureTest" time="0.002"/>
+  <testcase name="sinTest" classname="AllureTest" time="0.003"/>
 </testsuite>
